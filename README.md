@@ -44,7 +44,7 @@ cp config.json.example config.json
 # Install dependencies
 pip install requests
 
-# Add your API key to secrets (outside git!)
+# Add your API key to secrets
 echo "LASTFM_API_KEY=your_api_key_here" >> ~/.openclaw/secrets.env
 ```
 
@@ -170,7 +170,7 @@ openclaw gateway wake "scrobbleclaw-check"
 
 ## Philosophy
 
-ScrobbleClaw is intentionally minimal. We're not building a data warehouse of your listening habits—we're building a delightful familiar that occasionally makes you go "holy shit" mid-song.
+ScrobbleClaw is intentionally minimal. We're not building a data warehouse of your listening habits—we're building a delightful music nerd that occasionally makes you go "holy shit" mid-song.
 
 Less is more. But when it hits, it hits.
 
@@ -193,7 +193,7 @@ Less is more. But when it hits, it hits.
 
 ## Contributing
 
-This is a personal familiar tool, but contributions welcome:
+Contributions welcome:
 
 1. Fork and create a feature branch
 2. Add tests for new pattern detection logic
@@ -202,7 +202,7 @@ This is a personal familiar tool, but contributions welcome:
 
 ## License
 
-MIT License - feel free to adapt for your own familiar
+MIT License - feel free to adapt for your own crustacean.
 
 ## Future Ideas
 
