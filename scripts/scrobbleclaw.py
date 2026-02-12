@@ -43,8 +43,8 @@ def log(message, level="INFO"):
 
 # --- Data Persistence ---
 def load_secrets():
-    """Load Last.fm API key from .openclaw/secrets.env"""
-    secrets_path = Path("/home/nuno/.openclaw/secrets.env")
+    """Load Last.fm API key from secrets.env (configurable path)"""
+    secrets_path = Path(os.environ.get("OPENCLAW_SECRETS_PATH", "/home/nuno/.openclaw/secrets.env"))
     try:
         with open(secrets_path) as f:
             for line in f:
@@ -53,8 +53,8 @@ def load_secrets():
     except FileNotFoundError:
         pass
     
-    log("LASTFM_API_KEY not found in .openclaw/secrets.env", "ERROR")
-    log("Please add: LASTFM_API_KEY=your_api_key", "ERROR")
+    log("LASTFM_API_KEY not found in secrets.env", "ERROR")
+    log("Please set OPENCLAW_SECRETS_PATH or add key to default location", "ERROR")
     sys.exit(1)
 
 def load_config():
