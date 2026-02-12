@@ -1,0 +1,10 @@
+{
+  "lastfm": {
+    "username": "npovoa"
+  },
+  "settings": {
+    "waking_hours_start": 6,
+    "waking_hours_end": 23,
+    "check_interval_minutes": 30
+  }
+}
