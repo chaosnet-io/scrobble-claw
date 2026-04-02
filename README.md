@@ -1,3 +1,5 @@
+(as of the latest versions of openclaw this is somewhat broken, you can instruct your claw to fix it once you install it - I can't keep up y'all LOL)
+
 # 🎵 ScrobbleClaw
 
 Your personal Last.fm musical commentator that finds the hidden threads connecting your listening and makes you *actually hear* them differently.
