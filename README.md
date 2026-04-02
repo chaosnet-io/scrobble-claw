@@ -1,4 +1,4 @@
-(as of the latest versions of openclaw this is somewhat broken, you can instruct your claw to fix it once you install it - I can't keep up y'all LOL)
+(as of the latest versions of openclaw this is somewhat broken, you can instruct your crustacean to fix it once you install it - I can't keep up, y'all! LOL)
 
 # 🎵 ScrobbleClaw
 
